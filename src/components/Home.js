@@ -59,7 +59,10 @@ const Home = () => {
         initial="hidden"
         animate="visible"
       >
-        <Link to="/heads-or-tails" style={{ textDecoration: "none" }}>
+        <Link
+          to="/random-app/heads-or-tails"
+          style={{ textDecoration: "none" }}
+        >
           <motion.button
             variants={linkVariants}
             whileHover={{
@@ -71,7 +74,7 @@ const Home = () => {
           </motion.button>
         </Link>
 
-        <Link to="/dice" style={{ textDecoration: "none" }}>
+        <Link to="/random-app/dice" style={{ textDecoration: "none" }}>
           <motion.button
             variants={linkVariants}
             whileHover={{
@@ -83,7 +86,7 @@ const Home = () => {
           </motion.button>
         </Link>
 
-        <Link to="/random-picker" style={{ textDecoration: "none" }}>
+        <Link to="/random-app/random-picker" style={{ textDecoration: "none" }}>
           <motion.button
             variants={linkVariants}
             whileHover={{

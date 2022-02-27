@@ -26,7 +26,7 @@ function App() {
           <Route path="/random-app/random-picker" element={<RandomPicker />} />
           <Route path="/random-app/dice" element={<Dice />} />
           <Route path="/random-app/heads-or-tails" element={<HeadsOrTails />} />
-          <Route path="/random-app/" element={<Home />} />
+          <Route path="/random-app/" exact element={<Home />} />
         </Routes>
       </AnimatePresence>
     </Fragment>
