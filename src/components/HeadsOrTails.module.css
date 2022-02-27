@@ -1,0 +1,46 @@
+.container {
+  width: 25rem;
+  margin: auto;
+  margin-top: 18vh;
+}
+
+.coinContainer {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  -webkit-perspective: 900000px;
+  perspective: 900000px;
+}
+
+.coin {
+  background-color: rgb(189, 143, 27);
+  height: 10rem;
+  width: 10rem;
+  border: 2rem solid gold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coinText {
+  color: rgb(255, 217, 0);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.flipButton {
+  width: 100%;
+  height: 5rem;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 3px;
+  border: 5px solid white;
+  border-radius: 50px;
+  background-color: rgba(97, 101, 107, 0.5);
+  cursor: pointer;
+}
